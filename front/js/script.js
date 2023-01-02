@@ -7,7 +7,6 @@ function addProducts(donnees){
     console.log(donnees)
 
     for (let i = 0 ; i < donnees.length ; i++){
-         console.log("Canapé :" , i , donnees[i])
     
     const _id =donnees[i]._id
     const imageUrl = donnees[i].imageUrl
@@ -59,12 +58,4 @@ function ajParaph(description){
     return p
 }
 
-//     const imageUrl = data[0].imageUrl
-    
-//     const lien = document.createElement('a')
-//     lien.href = "./product.html?id="
-//     console.log("lien")
-//     const items = document.querySelector("#items")
-//     items.appendChild(lien)
 
-// })
